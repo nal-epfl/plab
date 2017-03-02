@@ -84,8 +84,10 @@ baseurl=http://archive.fedoraproject.org/pub/archive/fedora/linux/updates/$relea
 enabled=0
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$basearch
-Edit /etc/yum.repos.d/fedora-updates-testing.repo:
+```
 
+Edit /etc/yum.repos.d/fedora-updates-testing.repo:
+```
 [updates-testing]
 name=Fedora $releasever - $basearch - Test Updates
 failovermethod=priority
